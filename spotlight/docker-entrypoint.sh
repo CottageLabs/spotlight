@@ -27,7 +27,7 @@ fi
 
 # echo "Setting up spotlight... (this can take a few minutes)"
 # bundle exec rake spotlight:setup_spotlight["seed/setup.json"]
-npm install --unsafe-perm  # install uv, --unsafe-perm for root permission
+# npm install --unsafe-perm  # install uv, --unsafe-perm for root permission
 
 echo "--------- Starting Spotlight in $RAILS_ENV mode ---------"
 rm -f /tmp/spotlight.pid
